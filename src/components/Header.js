@@ -34,9 +34,9 @@ function Header() {
         </nav>
       </div>
     </header>
-    <ImageCarousel/>
+    {/* <ImageCarousel/>
     
-    <Footer/>
+    <Footer/> */}
     </div>
    
   );
