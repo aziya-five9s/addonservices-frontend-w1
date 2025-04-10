@@ -42,8 +42,8 @@
   color: white;
   padding: 20px;
   border-radius: 8px;
-  width: 300px;
-  height: 160px;
+  width: 400px;
+  height: 100px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -66,6 +66,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding: 2px;
+  margin: 2px;
 }
 
 
@@ -77,6 +79,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 27%;
 }
 
 .carousel-dots {
@@ -99,6 +102,11 @@
 }
 
 
-/*  */
+  .circle-image {
+    width: 30%; /* adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
 
 

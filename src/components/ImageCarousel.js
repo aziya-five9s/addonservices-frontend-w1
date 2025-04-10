@@ -3,6 +3,7 @@ import '../styles/ImageCarousel.css';
 import logo1 from '../images/food.jpg';
 import logo2 from '../images/food1.jpg';
 
+
 const carouselData = [
   {
     imgId: "c82018d4-58e8-4a20-ad1b-1878dd7e2350",

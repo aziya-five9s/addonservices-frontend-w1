@@ -1,21 +1,20 @@
 
 import React, { useState } from 'react';
-import '../styles/Header.css'; 
+import '../styles/Contact.css'; 
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import Footer from './Footer';
-import ImageCarousel from './ImageCarousel';
+import Footer1 from './Footer';
 import logo from '../images/logo.jpg';
 
-function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    debugger
-    setIsMenuOpen(!isMenuOpen);
-  };
-
+function Contact() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+    const toggleMenu = () => {
+      debugger
+      setIsMenuOpen(!isMenuOpen);
+    };
   return (
-    <div>
+  <div>
     <header className="header">
       <div className="header-container">
       <a href="/">
@@ -34,12 +33,13 @@ function Header() {
         </nav>
       </div>
     </header>
-    <ImageCarousel/>
+   
     
-    <Footer/>
+    <Footer1/>
     </div>
+  
    
   );
 }
 
-export default Header;
+export default Contact;

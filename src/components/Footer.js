@@ -26,7 +26,7 @@ const tenants = [
   }
 ];
 
-const Footer1 = () => {
+const Footer = () => {
   return (
     <div className="footer-container">
       {tenants.map((tenant) => (
@@ -82,4 +82,4 @@ const Footer1 = () => {
   );
 };
 
-export default Footer1;
+export default Footer;
