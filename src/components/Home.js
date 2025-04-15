@@ -6,6 +6,10 @@ import Footer from './Footer';
 import ImageCarousel from './ImageCarousel';
 import logo from '../images/logo.jpg';
 import Header from './Header';
+import AboutKitchen from './AboutKitchen';
+import AuthenticFlavours from './AuthenticFlavours';
+import ImageSlider from './ImageSlider';
+// import CategoryCarousel from './CategoryCarousel';
 
 function Home() {
 
@@ -13,6 +17,12 @@ function Home() {
     <div>
     {/* <Header/> */}
     <ImageCarousel/>
+    <AboutKitchen/>
+    {/* <AuthenticFlavours/> */}
+
+    <ImageSlider/>
+
+    {/* <CategoryCarousel/> */}
     {/* <Footer/> */}
     </div>
    

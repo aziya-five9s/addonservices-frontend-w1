@@ -1,0 +1,128 @@
+/* .slider-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .slide {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide:hover img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  .slide:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+   */
+
+
+
+   .slider-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for a cleaner look */
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 12px; */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide:hover img {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 82%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  .slide:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

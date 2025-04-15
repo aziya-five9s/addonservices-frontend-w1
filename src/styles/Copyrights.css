@@ -1,0 +1,27 @@
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    /* color: #444; */
+    /* padding-top: 15px; */
+    /* border-top: 1px solid #ddd; */
+    /* bottom: 0; */
+    /* position: fixed; */
+
+
+    /* margin-left: 30%;
+    margin-bottom: -20px; */
+
+
+    /* position: relative */
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:"100%";
+    font-size: 14px;
+  }
+
+
+
+

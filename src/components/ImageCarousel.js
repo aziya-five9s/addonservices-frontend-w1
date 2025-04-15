@@ -18,6 +18,13 @@ const carouselData = [
     subTitle: "Top Sellingdata1",
     imagePath: logo2,
     updatedAt: "2025-04-09T06:12:59.189Z"
+  },
+  {
+    imgId: "c82018d4-58e8-4a20-ad1b-1878dd7e2350",
+    title: "Authentic Biryani",
+    subTitle: "Explore our Signature Biryani",
+    imagePath: logo1,
+    updatedAt: "2025-03-27T08:28:04.911Z"
   }
 ];
 
