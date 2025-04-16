@@ -12,7 +12,7 @@
   .category-underline {
     width: 60px;
     height: 4px;
-    background-color: #ffc107;
+    background-color: #FFBC01;
     margin: 0 auto 30px auto;
     border-radius: 2px;
   }
@@ -65,7 +65,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #ffc107;
+    background-color: #FFBC01;
     border: none;
     border-radius: 50%;
     width: 36px;

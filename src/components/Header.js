@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import '../styles/Header.css'; 
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import Footer from './Footer';
-import ImageCarousel from './ImageCarousel';
+import ImageCarousel from './HeroSection';
 import logo from '../images/logo.jpg';
 
 function Header() {

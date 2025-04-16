@@ -3,26 +3,24 @@ import React, { useState } from 'react';
 import '../styles/Header.css'; 
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import Footer from './Footer';
-import ImageCarousel from './ImageCarousel';
+import HeroSection from './HeroSection';
 import logo from '../images/logo.jpg';
 import Header from './Header';
 import AboutKitchen from './AboutKitchen';
-import AuthenticFlavours from './AuthenticFlavours';
-import ImageSlider from './ImageSlider';
-// import CategoryCarousel from './CategoryCarousel';
+import SubMenu from './SubMenu';
+import CategoryCarousel from './CategoryCarousel';
 
 function Home() {
 
   return (
     <div>
     {/* <Header/> */}
-    <ImageCarousel/>
+    <HeroSection/>
+    <CategoryCarousel/>
     <AboutKitchen/>
-    {/* <AuthenticFlavours/> */}
 
-    <ImageSlider/>
+    <SubMenu/>
 
-    {/* <CategoryCarousel/> */}
     {/* <Footer/> */}
     </div>
    

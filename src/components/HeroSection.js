@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/ImageCarousel.css';
+import '../styles/HeroSection.css';
 import logo1 from '../images/food.jpg';
 import logo2 from '../images/food1.jpg';
 
@@ -28,7 +28,7 @@ const carouselData = [
   }
 ];
 
-const ImageCarousel = () => {
+const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -75,4 +75,4 @@ const ImageCarousel = () => {
   );
 };
 
-export default ImageCarousel;
+export default HeroSection;
