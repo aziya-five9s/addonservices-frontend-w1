@@ -1,13 +1,15 @@
 
 import './App.css';
 import Header from "./components/Header";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
+import ContactUs from "./components/ContactUs";
 import { Routes, Route } from "react-router-dom";
 import Gallery from './components/Gallery';
 import Home from './components/Home';
 import Location from './components/Location';
 import Footer from './components/Footer';
 import Copyrights from './components/Copyrights';
+import Ordernow from './components/Ordernow';
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/location" element={<Location />} />
+        <Route path="/ordernow" element={<Ordernow />} />
       </Routes>
       <div className="page-container">
         <div className="content-wrap">

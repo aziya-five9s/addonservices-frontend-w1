@@ -14,13 +14,13 @@ const mealData = [
         imagePath: logo,
         uploadedAt: "2025-04-14T07:44:00.505Z",
         uploadedBy: "John Doe"
-      }, {
+      },  {
         imgId: "b4a2e882-4a38-4fd4-8aa8-a283c741135a",
         title: "newtitletesting",
         imagePath: logo1,
         uploadedAt: "2025-04-14T07:44:00.505Z",
         uploadedBy: "John Doe"
-      }, {
+      },  {
         imgId: "b4a2e882-4a38-4fd4-8aa8-a283c741135a",
         title: "newtitletesting",
         imagePath: logo,
@@ -66,41 +66,39 @@ const Gallery = () => {
 
   return (
     <div className="morning-meal-container">
-      {morningMeals.length > 0 ? <h2 className="meal-heading">Morning Meal</h2> : null}
-      {morningMeals.length > 0 ? <div className="meal-grid">
+      <h2 className="meal-heading">Morning Meal</h2>
+      <div className="meal-grid">
         {morningMeals.map((meal) => (
           <div className="meal-card" key={meal.imgId}>
             <img src={meal.imagePath} alt={meal.title} />
-            {meal.title &&
-              <div class="overlay"><span>{meal.title}</span></div>
+            {meal.title && 
+            <div class="overlay"><span>{meal.title}</span></div>
             }
           </div>
         ))}
-      </div> : null}
-
-      {afernoonMeals.length > 0 ? <h2 className="meal-heading">Afternoon Meal</h2> : null}
-      {afernoonMeals.length > 0 ? <div className="meal-grid">
+      </div>
+      <h2 className="meal-heading">Afternoon Meal</h2>
+      <div className="meal-grid">
         {afernoonMeals.map((meal) => (
           <div className="meal-card" key={meal.imgId}>
             <img src={meal.imagePath} alt={meal.title} />
-            {meal.title &&
-              <div class="overlay"><span>{meal.title}</span></div>
+            {meal.title && 
+            <div class="overlay"><span>{meal.title}</span></div>
             }
           </div>
         ))}
-      </div> : null}
-
-      {eveningMeals.length > 0 ? <h2 className="meal-heading">Evening Meal</h2> : null}
-      {eveningMeals.length > 0 ? <div className="meal-grid">
+      </div>
+      <h2 className="meal-heading">Evening Meal</h2>
+      <div className="meal-grid">
         {eveningMeals.map((meal) => (
           <div className="meal-card" key={meal.imgId}>
             <img src={meal.imagePath} alt={meal.title} />
-            {meal.title &&
-              <div class="overlay"><span>{meal.title}</span></div>
+            {meal.title && 
+            <div class="overlay"><span>{meal.title}</span></div>
             }
           </div>
         ))}
-      </div> : null}
+      </div>
     </div>
   );
 };

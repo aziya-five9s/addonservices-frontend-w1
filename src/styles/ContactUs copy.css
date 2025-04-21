@@ -1,0 +1,159 @@
+/* .contact-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+  }
+  
+  .contact-title {
+    text-align: center;
+    color: #F4A300;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 2rem;
+  }
+  
+  .contact-subtitle {
+    color: #F4A300;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-description {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-section {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section h4 {
+    color: #F4A300;
+    margin-bottom: 0.3rem;
+  }
+  
+  .contact-right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  
+  .contact-right img {
+    width: 130px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  }
+   */
+
+   .contact-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+  }
+  
+  .contact-title {
+    text-align: center;
+    color: #F4A300;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 2rem;
+  }
+  
+  .contact-subtitle {
+    color: #F4A300;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-description {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-section {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section h4 {
+    color: #F4A300;
+    margin-bottom: 0.3rem;
+  }
+  
+  .contact-right {
+    flex: 1;
+    position: relative;
+    min-height: 420px;
+  }
+  
+  .contact-right .img {
+    position: absolute;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Position each image to match the uploaded layout */
+  .img1 {
+    top: 0;
+    left: 120px;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+  }
+  
+  .img2 {
+    top: 0;
+    left: 250px;
+    width: 130px;
+    height: 130px;
+    z-index: 1;
+  }
+  
+  .img3 {
+    top: 120px;
+    left: 150px;
+    width: 160px;
+    height: 160px;
+    z-index: 3;
+  }
+  
+  .img4 {
+    top: 270px;
+    left: 230px;
+    width: 130px;
+    height: 130px;
+    z-index: 2;
+  }
+  
+  .img5 {
+    top: 240px;
+    left: 80px;
+    width: 120px;
+    height: 140px;
+    z-index: 1;
+  }
+  

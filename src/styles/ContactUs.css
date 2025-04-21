@@ -1,0 +1,120 @@
+.contact-us-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+  }
+  
+  .contact-title {
+    text-align: center;
+    color: #f4a300;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+  }
+  
+  .contact-highlight {
+    color: #f4a300;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .contact-paragraph {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .contact-section {
+    margin-bottom: 15px;
+  }
+  
+  .section-heading {
+    color: #f4a300;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Image collage section */
+  .contact-right {
+    flex: 1;
+    position: relative;
+    min-height: 500px;
+    max-width: 50%;
+  }
+  
+  .contact-right img {
+    /* position: absolute;
+    border-radius: 5px; */
+    object-fit: cover;
+    
+    width: 250px;
+    height: 310px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Updated 4-image layout */
+  /* .img1 {
+    top: 0;
+    left: 120px;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+  }
+  
+  .img2 {
+    top: 0;
+    left: 290px;
+    width: 160px;
+    height: 160px;
+    z-index: 1;
+  }
+  
+  .img3 {
+    top: 140px;
+    left: 180px;
+    width: 160px;
+    height: 160px;
+    z-index: 3;
+  }
+  
+  .img4 {
+    top: 320px;
+    left: 250px;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+  }
+   */
+
+   .img1 {
+
+    position: relative;
+    left: -46px;
+
+   }
+   .img2 {
+    position: relative;
+    top: -150px;
+    left: -125px;
+   }
+   .img3 {
+margin-top: 40px;
+   }
+   .img4 {
+    position: relative;
+    top: -100px;
+    left: -80px;
+   }
+  

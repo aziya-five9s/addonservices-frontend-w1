@@ -26,7 +26,7 @@ function Header() {
           <a href="/">Home</a>
           <a href="/contact">Contact us</a>
           <a href="/store-locator">Store locator</a>
-          <a href="/order-now">Order Now</a>
+          <a href="/ordernow">Order Now</a>
           <a href="/gallery">Gallery</a>
           <a href="/profile" className="user-icon">
           <PersonOutlineIcon/>
