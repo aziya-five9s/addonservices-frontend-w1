@@ -1,49 +1,30 @@
-.spinner-container {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    margin: 100px auto;
-    animation: spin 1s linear infinite;
-  }
-  
-  .dot {
-    width: 10px;
-    height: 10px;
-    background-color: #ffbd00; /* Yellow */
-    border-radius: 50%;
-    position: absolute;
-  }
-  
-  .dot:nth-child(1) {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .dot:nth-child(2) {
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-  }
-  
-  .dot:nth-child(3) {
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .dot:nth-child(4) {
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-  }
-  
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
+/* .spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */
+
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid orange; /* changed to orange */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
